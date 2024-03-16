@@ -31,6 +31,7 @@ img {
 }
 .page-header{
     border-bottom: 1px solid #e7e9fc;
+    
 
 }
 .header-container {
@@ -195,7 +196,19 @@ width: calc((100% - 3 * 24px) / 4);
     color: #434455;
     
 }
+.service-container{
+    display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 112px;
+        background-color: #f4f4fd;
+        border-radius: 4px;
+        margin-bottom: 8px;
+        border: 1px solid #8e8f99;
+}
+.service-icons{
 
+}
 .team {
     background-color: #f4f4fd;
     padding: 120px 0;
